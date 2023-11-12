@@ -1,0 +1,21 @@
+.container{
+     
+   
+    
+}
+ .list{
+     list-style: none;
+     
+ }
+ .list li{
+     height: 40px;
+     text-decoration: none;
+ }
+ .back{
+     margin-left: 20px;
+ }
+.back img {
+     width: 15px;
+     height: 15px;
+     object-fit: contain;
+}

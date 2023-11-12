@@ -1,0 +1,24 @@
+.container{
+   
+      background-color:  rgb(255 255 255);
+      display: flex;
+      justify-content: center;
+      z-index: 100;
+      
+}
+
+.list{
+     list-style: none;
+     margin-right: 100px;
+     padding-top: 20px;
+     
+}
+.item{
+     margin-bottom:8px;
+     cursor: pointer;
+}
+.first{
+     font-weight: 700;
+     margin-bottom: 16px;
+     cursor: pointer;
+}

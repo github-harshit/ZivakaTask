@@ -1,0 +1,72 @@
+.container{
+    height: 400px;
+     background-image: url("../images//Subscribe.webp");
+     padding-top: 100px;
+     padding-left: 50px;
+}
+ .box{
+     z-index: 100;
+     width: 30%;
+     height: 50px;
+     background-color: #FF5900;
+     color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+ }
+ .para{
+     font-weight: 900;
+     font-size: 18px;
+ }
+.input{
+     display: flex;
+     z-index: 100;
+
+}
+.email{
+    all: unset;
+    height: 40px;
+    width: 20%;
+    margin-right: 30px;
+    border: 1px solid black;
+    padding-left: 30px;
+     
+}
+.email::placeholder{
+     padding-left: 30px;
+}
+.btn{
+    height: 40px;
+    width: 14%; 
+    background-color: rgb(5, 5, 40);
+    color: white;
+  
+}
+ @media (max-width:450px){
+    .container{
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         padding-top: 20px;
+    }
+     .box{
+         width: 70%;
+         margin: 0 auto;
+     }
+     .para{
+         font-size: 16px;
+     }
+     .input{
+         display: flex;
+         flex-direction: column;
+         gap:2rem; 
+     }
+     .email{
+         width: 70%;
+     }
+     .btn{
+         width: 80%;
+     }
+ }

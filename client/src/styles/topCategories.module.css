@@ -1,0 +1,22 @@
+.container{
+    width: 100%; 
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.heading{
+    width: 20%;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #FF5900;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ @media (max-width:520px){
+     .heading{
+         width: 60%;
+     }
+ }

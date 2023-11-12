@@ -1,0 +1,23 @@
+
+.container{
+     width: 100%;
+     height: 400px;
+     background-image: url("../images/ElementsDiwali.webp");
+     background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+}
+
+ @media (max-width:430px){
+      .container{
+       
+          width: 100%;
+           height: 600px;
+           background-image: url("../images//ElementsDiwaliMobile.webp");
+           background-repeat: no-repeat;
+           background-size: contain;
+           background-position: center;
+           
+          
+      }
+ }
